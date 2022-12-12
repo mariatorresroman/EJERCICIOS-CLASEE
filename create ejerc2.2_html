@@ -1,0 +1,38 @@
+<html>
+    <head>
+    <title>categoria</title>
+    </head>
+    <body>
+        <h1>categoria</h1>
+    <script>
+
+    var num1=parseInt(prompt("dime la edad"))
+
+    if (num1>=6 && num1<=7){
+    document.write("es benjamin")
+    }
+    else if (num1>=8 && num1<=9)
+    document.write("es alevin")
+
+    if (num1<=11 && num1>=10)
+    document.write("es infantil")
+
+    if ( num1>=12)
+    document.write("es cadete")
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+    </body>
+    </html>
+
+</body>
+</html>
