@@ -1,0 +1,15 @@
+function setup(){
+    ;
+
+
+    createCanvas(200,200);//200 ancho x 200 alto
+    background(225); // Rango de grises
+
+
+
+}
+
+
+function draw(){ arc(100,100,80,40 ,PI,HALF_PI);
+
+}
