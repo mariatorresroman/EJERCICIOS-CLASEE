@@ -1,0 +1,23 @@
+<html>
+<title> Centigrados a Farenheit</title>
+<body>
+
+<h2>Conversor de temperaturas</h2>
+<p>Escriba aqui el valor de la temperatura en centigrados:</p>
+
+<p>
+  <label>Centigrados</label>
+  <input id="inputCentigrados" type="number" placeholder="Centigrados" oninput="CentigradosFarenheit(this.value)" onchange="CentigradosFarenheit(this.value)">
+</p>
+<p>Farenheit: <span id="Farenheit"></span></p>
+
+
+<script>
+function CentigradosFarenheit(temp) {
+  document.getElementById("Farenheit").innerHTML=((temp*1.8)+32);
+
+
+}
+</script>
+</body>
+</html>
