@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Estado del agua</title>
+</head>
+<body>
+    <h1>Estado del agua</h1>
+<script>
+
+var num1=parseInt(prompt("dime la temperatura"))
+
+if (num1>0 && num1<100){
+document.write("es liquido")
+}
+else if (num1>100)
+document.write("es gaseoso")
+
+if (num1<0)
+document.write("es solido")
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
