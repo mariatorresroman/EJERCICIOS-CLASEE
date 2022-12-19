@@ -1,0 +1,17 @@
+//corre solo una vez cuando inicia el programa
+function setup(){
+    createCanvas(800,300);
+    
+    
+
+}
+
+//corre continuamente después de la función setup
+function draw(){
+    console.log("draw: "+frameCount);
+    background('green')
+    ellipse(50,100,50);
+   line(100, 50, 150, 150)
+
+}
+
